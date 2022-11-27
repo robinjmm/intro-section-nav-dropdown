@@ -1,23 +1,28 @@
 {
-  "name": "intro-section-nav-dropdown",
-  "version": "1.0.0",
-  "description": "A challenge to build an intro section with a dropdown nav",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --watch scss/styles.scss:css/styles.css",
-    "prod": "sass --style=compressed scss/styles.scss:css/styles.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robinjmm/intro-section-nav-dropdown.git"
-  },
-  "author": "robinjmm",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/robinjmm/intro-section-nav-dropdown/issues"
-  },
-  "homepage": "https://github.com/robinjmm/intro-section-nav-dropdown#readme",
-  "devDependencies": {
-    "sass": "^1.52.2"
-  }
+	"name": "intro-section-nav-dropdown",
+	"version": "1.0.0",
+	"description": "My solution for the Intro Section Dropdown Navigation challenge from Frontendmentor.io",
+	"source": "src/index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"dev": "parcel",
+		"build": "parcel build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robinjmm/intro-section-nav-dropdown.git"
+	},
+	"author": "robinjmm",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/robinjmm/intro-section-nav-dropdown/issues"
+	},
+	"homepage": "https://github.com/robinjmm/intro-section-nav-dropdown#readme",
+	"dependencies": {
+		"parcel": "^2.8.0",
+		"sass": "^1.56.1"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.8.0"
+	}
 }
