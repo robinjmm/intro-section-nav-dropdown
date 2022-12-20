@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://github.com/robinjmm/intro-section-nav-dropdown#readme",
 	"dependencies": {
+		"modern-normalize": "^1.1.0",
 		"parcel": "^2.8.0",
 		"sass": "^1.56.1"
 	},
